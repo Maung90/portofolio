@@ -1,0 +1,136 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600&display=swap");
+*/@import url("C:/Users/User/Documents/sepri/Fira_Code/static/FiraCode-Medium.ttf");
+*{
+  font-family: "Fira Code";
+}
+body{
+	background-color: #272727;
+}
+.bg-navbar{
+	background-color: #272727;
+}
+
+ul li a.nav-link{
+	color: #c9c9c9;
+}
+
+ul li a.nav-link:hover{
+	color: #ffffff;
+}
+.navbar-custom{
+	border-bottom: 1px solid #6c757d;
+}
+.about{
+	color: #c9c9c9;
+	line-height: 40px;
+}
+.content-about{
+	width: 90%;
+}
+.img-profile{
+	border: 2px solid #05F972;
+}
+.content-bio h4{
+	color: #fff;
+	letter-spacing: 2px;
+}
+.content-bio p{
+	color: #c9c9c9;
+}
+.content-sosmed a{
+	text-decoration: none;
+}
+.content-sosmed a i{
+	font-size:20px;
+	color: white; 
+}
+/*Card*/
+.card-custom{
+	width: 50%;
+	margin-left: 5%;
+	background-color: #110420;
+	/*background-color: rgb(61,61,61);*/
+}
+.icon-custom{
+	top: -30px;
+	background-color: rgb(61,61,61);
+}
+.card-skill{
+	background-color: #110420;
+
+}
+/*portofolio*/
+.portofolio{
+	padding-top: 50px; 
+}
+.portofolio h2{
+	font-family: "Sora";
+	font-size: 48px;
+}
+.portofolio h3{
+	font-family: "Sora";
+	font-size: 35px;
+}
+.portofolio p{
+	line-height: 25px;
+	text-align: justify;
+}
+.portofolio img{
+	border-radius: 10px;
+}
+.tombol{
+	background-color: #110420;
+	color: #6c757d;
+}
+.tombol:hover{
+	transition: ease 1s;
+	background-color: #fff;
+	color: royalblue;
+}
+.border-footer{
+	border-top: 1px solid #6c757d;
+	padding-top: 10px; 
+}
+.border-footer ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+/*page portofolio*/
+.heading-text h2,.span{
+	font-size:48px;
+	font-family: "Sora";
+	color: white;
+}
+/*Image Manual*/
+.image{
+	background-color: #110420; 
+	width:100%;
+	height: 20pc;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.image img{
+	border-radius: 0px;
+	transition: ease 1s;
+}
+.image img:hover{
+	transform: matrix(2);
+	rotate:-360deg;
+}
+
+.kotak-arrow{
+	margin: 10px;
+	width: 35px;
+	height: 35px;
+	background-color: #323443;
+	border-radius: 5px;
+	top: 0;
+	right: 0;
+}
+.kotak-arrow a{
+	color:  #c9c9c9;
+	/*transform: rotateZ(-45deg);*/
+	rotate:-45deg;
+}
